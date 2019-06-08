@@ -80,9 +80,9 @@ public class LoginController extends HttpServlet {
             
             System.out.println("Usuario: " + idUsuarioLogeado);
             HttpSession session=request.getSession();  
-            session.setAttribute("user",usuarioL.getId());              
+            session.setAttribute("user",usuarioL.getId());  
             msg = "los datos con correctos";
-            rd = request.getRequestDispatcher("/index.jsp");
+            rd = request.getRequestDispatcher("/index.html");
         } else {
             System.out.println("No existe el usuario.");
             msg = "Datos invalidos";
