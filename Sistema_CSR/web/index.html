@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap_4/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome-free-5.8.2-web/css/all.css" rel="stylesheet">
+
+        <style>
+            .card .date { 
+                position: absolute;
+                right: 2em;
+                top: 0.6em;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid bg-info">
+                <div class="row">
+                    <div class="col-3 text-center p-2">
+                        <img src="http://www.trentino.edu.pe/views/images/logotrentino.png">
+                    </div>
+                    <div class="col-7 d-flex align-items-center">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="persona">Persona</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="frmTipoPersona.jsp">Tipo Persona</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="frmPerfilUsuario.jsp">Perfiles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="pbpendiente">Publicaciones Pendientes</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-1 p-3"><a href="frmLogin.jsp">
+                            <img src="css/img/usuario2.png" height="100%" width="100%">
+                        </a></div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container mt-4">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="card">
+                            <small class="date">
+                                <i>10-06-2019</i>
+                            </small>
+                            <div class="card-body d-flex flex-row">
+                                <div class="p-2">
+                                    <img class="rounded-circle" src="http://lorempixel.com/50/50/sports/1/">
+                                </div>
+                                <div class="p-2">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="font-weight-bolder">
+                                            <b>Lorem ipsum dolor sit amet, consectetur</b>
+                                        </span>
+                                    </div>
+                                    <small>
+                                        Orfelinda Chaquila perez
+                                    </small>
+                                    <p class="pt-2">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam praesentium
+                                        molestias, dignissimos sequi sed nam officiis, necessitatibus temporibus, ab ipsam
+                                        fugiat adipisci quam quibusdam deserunt enim ex! Distinctio, quis quos!
+                                    </p>
+                                    <hr>
+                                    <p class="pt-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend varius
+                                    </p>
+                                    <!-- Button trigger modal -->
+                                    <a data-toggle="modal" class="text-primary" data-target="#exampleModalCenter"
+                                       style="cursor: pointer">
+                                        tiene 6 comentarios <i class="fas fa-angle-down"></i>
+                                    </a>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <div class="modal-title" id="exampleModalCenterTitle">
+                                                        <div class="font-weight-bolder d-flex justify-content-between">
+                                                            <div class="col-3 p-0"> <img class="rounded-circle"
+                                                                                         src="http://lorempixel.com/50/50/sports/1/"></div>
+
+                                                            <div class="col-12 px-0">
+                                                                <h5><b>Orfelinda Chaquila perez</b></h5>
+                                                                <small>
+                                                                    <i>10-06-2019</i>
+                                                                </small>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                            aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <h5 class="font-weight-bolder"><b>Lorem ipsum dolor sit amet, consectetur</b></h5>
+
+                                                    <p class="pt-2">
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                                                        praesentium
+                                                        molestias, dignissimos sequi sed nam officiis, necessitatibus
+                                                        temporibus, ab ipsam
+                                                        fugiat adipisci quam quibusdam deserunt enim ex! Distinctio,
+                                                        quis quos!
+                                                    </p>
+                                                    <hr class="mb-1 mt-3">
+                                                    <b>Respuesta(s)</b>
+                                                    <hr class="mt-2">
+                                                    <p class="pt-2">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                                        eleifend varius
+                                                    </p>
+                                                    <hr class="mb-1 mt-3">
+                                                    <b>Comentarios</b>
+                                                    <hr class="mt-2">
+                                                    <div class="row d-flex justify-content-end mb-2 mr-1">
+                                                        <div class="col-2">
+                                                            <img class="rounded-circle"
+                                                                 src="http://lorempixel.com/50/50/sports/7/">
+                                                        </div>
+                                                        <div class="col-9 border border-light rounded bg-light ">
+                                                            Temporibus, ab ipsam fugiat adipisci quam quibusdam deserunt
+                                                            enim ex! Distinctio,
+                                                            quis quos!
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-end mb-2 mr-1">
+                                                        <div class="col-2">
+                                                            <img class="rounded-circle"
+                                                                 src="http://lorempixel.com/50/50/sports/5/">
+                                                        </div>
+                                                        <div class="col-9 border border-light rounded bg-light">
+                                                            Temporibus, ab ipsam fugiat adipisci quam quibusdam deserunt
+                                                            enim ex! Distinctio,
+                                                            quis quos!
+                                                        </div>
+                                                    </div>
+                                                    <div class="row d-flex justify-content-end mb-2 mr-1">
+                                                        <div class="col-2">
+                                                            <img class="rounded-circle"
+                                                                 src="http://lorempixel.com/50/50/sports/6/">
+                                                        </div>
+                                                        <div class="col-9 border border-light rounded bg-light">
+                                                            Temporibus, ab ipsam fugiat adipisci quam quibusdam deserunt
+                                                            enim ex! Distinctio,
+                                                            quis quos!
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <!--<button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="card">
+                            <small class="date">
+                                <i>10-06-2019</i>
+                            </small>
+                            <div class="card-body d-flex flex-row">
+                                <div class="p-2">
+                                    <img class="rounded-circle" src="http://lorempixel.com/50/50/sports/2/">
+                                </div>
+                                <div class="p-2">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="font-weight-bolder">
+                                            <b>Lorem ipsum dolor sit amet, consectetur</b>
+                                        </span>
+                                    </div>
+                                    <small>
+                                        Diego Tarrillo
+                                    </small>
+                                    <p class="pt-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend varius
+                                        posuere. Suspendisse eget tortor accumsan nibh facilisis egestas. Donec felis justo,
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-4">
+                        <div class="card">
+                            <small class="date">
+                                <i>10-06-2019</i>
+                            </small>
+                            <div class="card-body d-flex flex-row">
+                                <div class="p-2">
+                                    <img class="rounded-circle" src="http://lorempixel.com/50/50/sports/3/">
+                                </div>
+                                <div class="p-2">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="font-weight-bolder">
+                                            <b>Lorem ipsum dolor sit amet, consectetur</b>
+                                        </span>
+                                    </div>
+                                    <small>
+                                        Jazmin Acevedo
+                                    </small>
+                                    <p class="pt-2">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eleifend varius
+                                        posuere. Suspendisse eget tortor accumsan nibh facilisis egestas. Donec felis justo,
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4 d-flex justify-content-center">
+                        <button class="col-5 border rounded-pill btn btn-primary" > <a href="publicacion" class="text-white" style="text-decoration: none">Agregar nueva Publicacion</a></button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="css/bootstrap_4/bootstrap.min.js"></script>
+
+    </body>
+</html>
